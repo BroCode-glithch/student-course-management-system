@@ -1,17 +1,6 @@
 # Student Course Management System
 ## COS 201 Programming I - Mid-Semester Lab Assessment
 
----
-
-## **PROJECT OVERVIEW**
-
-**Course:** COS 201 Programming I  
-**Assignment:** Mid-Semester Lab Assessment Project  
-**Department:** Software Engineering  
-**Matriculation Number:** 2025/B/SENG/0421  
-**Student Name:** Emmanuel Ogunfunwa  
-**Email:** e.ogunfunwa1129@miva.edu.ng  
-**Date:** November 2026
 
 ---
 
@@ -47,7 +36,6 @@ The system consists of three main Java classes:
 ```
 Student-Course-Management-System/
 ├── README.md                                          # This file
-├── DOC-20261102-WA0007.pdf                           # Original lab requirements
 ├── src/
 │   └── com/
 │       └── miva/
@@ -62,7 +50,6 @@ Student-Course-Management-System/
 │               ├── Course.class                     # Compiled Course class
 │               ├── CourseManager.class              # Compiled CourseManager class
 │               └── CourseGUI.class                  # Compiled CourseGUI class
-└── submission_report.txt                             # Full report for PDF conversion
 ```
 
 ---
@@ -231,123 +218,5 @@ Loaded 1 course(s).
 
 ---
 
-## **SCREENSHOTS FOR SUBMISSION**
-
-**Recommended screenshots to capture:**
-
-1. **Console Menu** - Running the program and selecting options
-   ```
-   java -cp bin com.miva.coursesystem.CourseManager
-   ```
-
-2. **After Adding Courses** - Show courses displayed in table format
-
-3. **GUI Window** - The graphical interface with input fields and buttons
-
-4. **Search Results** - Demonstrating course search by code
-
-5. **Total Units** - Display showing total and average units
-
-6. **Save/Load Operations** - Confirmation messages after file operations
-
-**How to capture:**
-- Run the program: `java -cp bin com.miva.coursesystem.CourseManager`
-- Use `Print Screen` key or `Snipping Tool`
-- Or use IDE's built-in screenshot capability
-
----
-
-## **ACADEMIC INTEGRITY**
-
-**This is an individual lab exercise.** Every student must submit their own original work.
-
-- Collaboration is permitted for discussing ideas and enhancing understanding
-- Copying, sharing, or submitting another student's completed work is strictly prohibited
-- Evidence of duplication or plagiarism will attract severe academic penalties
-- All source code must be your original work
-- This repository contains my personal implementation for reference only
-
----
-
-## **LAB REFERENCES**
-
-- **Lab Assignment:** COS 201 Programming I - Mid-Semester Lab Assessment Project
-- **Case Study:** Student Course Management (Mini-System)
-- **Original PDF:** DOC-20261102-WA0007.pdf
-- **Institution:** MIVA Open University
-- **Year:** 2025/2026 Academic Session
-
----
-
-## **PUSH TO GITHUB INSTRUCTIONS**
-
-### Step 1: Initialize Git Locally
-
-```bash
-cd Student-Course-Management-System
-git init
-git add -
-git commit -m "Initial commit: Student Course Management System"
-```
-
-### Step 2: Create GitHub Repository
-
-1. Go to [github.com](https://github.com) and log in
-2. Click **+** in the top right → **New Repository**
-3. Repository name: `student-course-management-system` (or your preferred name)
-4. Description: "COS 201 Programming I - Mid-Semester Lab Assessment - Student Course Management System"
-5. Select **Public** or **Private** (your choice)
-6. **Do NOT** initialize with README, .gitignore, or license (we already have files)
-7. Click **Create repository**
-
-### Step 3: Push Local Repository to GitHub
-
-```bash
-# Replace YOUR_USERNAME with your GitHub username
-git remote add origin git@github.com:YOUR_USERNAME/student-course-management-system.git
-# OR using HTTPS:
-# git remote add origin https://github.com/YOUR_USERNAME/student-course-management-system.git
-
-git branch -M main
-git push -u origin main
-```
-
-### Step 4: Verify
-
-- Visit your repository URL on GitHub
-- Confirm all files are uploaded correctly
-- README should be displayed automatically
-
----
-
-<!-- ## **SUBMISSION CHECKLIST**
-
-- [x] Source code files (Course.java, CourseManager.java, CourseGUI.java)
-- [x] Student information (name, email, department, matriculation number)
-- [x] Comprehensive README.md file
-- [x] All 7 required operations implemented
-- [x] Proper exception handling and validation
-- [x] File I/O save/load functionality
-- [x] Recursive menu feature
-- [x] GUI and console interface options
-- [x] Academic integrity noted
-- [x] Ready for LMS submission
-- [ ] Convert to PDF format for LMS upload (if required)
-- [ ] Add screenshots to PDF submission
-- [ ] Submit before LMS deadline
-
---- -->
-
-## **CONTACT & SUPPORT**
-
-**Student:** Emmanuel Ogunfunwa  
-**Email:** e.ogunfunwa1129@miva.edu.ng  
-**Department:** Software Engineering  
-**Matriculation:** 2025/B/SENG/0421  
-
-**Course:** COS 201 Programming I  
-**Institution:** MIVA Open University  
-
---- 
 
 *This project was developed as part of the COS 201 Programming I Mid-Semester Lab Assessment. All code is original work and demonstrates proper Java programming practices including OOP, file handling, exception management, and recursion.*
