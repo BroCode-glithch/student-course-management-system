@@ -3,7 +3,7 @@
 
 ---
 
-## 📋 **PROJECT OVERVIEW**
+## **PROJECT OVERVIEW**
 
 **Course:** COS 201 Programming I  
 **Assignment:** Mid-Semester Lab Assessment Project  
@@ -15,22 +15,22 @@
 
 ---
 
-## 🎯 **PROJECT DESCRIPTION**
+## **PROJECT DESCRIPTION**
 
 This project implements a **Student Course Management System (SCMS)** - a simple desktop application designed to help students record and manage the courses they are taking for a semester. The application allows users to:
 
-- ✅ Add courses with details (course code, title, and unit)
-- ✅ Display all recorded courses clearly
-- ✅ Search for specific courses using course code
-- ✅ Compute and display total credit units
-- ✅ Save course list to a file
-- ✅ Load previously saved courses from a file
+- Add courses with details (course code, title, and unit)
+- Display all recorded courses clearly
+- Search for specific courses using course code
+- Compute and display total credit units
+- Save course list to a file
+- Load previously saved courses from a file
 
 The system can be used via a **text-based menu** or a **simple graphical interface** (Swing-based GUI).
 
 ---
 
-## 🏗️ **SYSTEM ARCHITECTURE**
+## **SYSTEM ARCHITECTURE**
 
 The system consists of three main Java classes:
 
@@ -42,7 +42,7 @@ The system consists of three main Java classes:
 
 ---
 
-## 📂 **FILE STRUCTURE**
+## **FILE STRUCTURE**
 
 ```
 Student-Course-Management-System/
@@ -67,7 +67,7 @@ Student-Course-Management-System/
 
 ---
 
-## ✨ **FEATURES IMPLEMENTED**
+## **FEATURES IMPLEMENTED**
 
 ### Core Functionality (All 7 Required Operations)
 
@@ -81,21 +81,21 @@ Student-Course-Management-System/
 
 ### Additional Technical Features
 
-- ✅ **Proper Use of Classes and Objects** - Encapsulated Course class with full functionality
-- ✅ **Methods for Operations** - Separate methods for each operation with clear responsibilities
-- ✅ **Logical Decision-Making** - Switch-case menu with proper branching and validation
-- ✅ **Invalid Input Handling** - Validation for empty codes, titles, positive units
-- ✅ **String Processing** - trim(), equalsIgnoreCase(), toUpperCase(), split()
-- ✅ **Clean Coding Style** - Javadoc comments, meaningful variable names, proper formatting
-- ✅ **Iteration (Loops)** - Enhanced for-loops throughout for summing, saving, loading, searching
-- ✅ **Recursive Feature** - `displayMenuRecursive()` method demonstrating recursion practical use
-- ✅ **Exception Handling** - try-catch-finally blocks for file I/O and input validation
-- ✅ **File Reading & Writing** - PrintWriter/FileWriter for saving, BufferedReader/FileReader for loading
-- ✅ **Two Interface Options** - Console-based (CourseManager.main) and GUI-based (CourseGUI.main)
+- **Proper Use of Classes and Objects** - Encapsulated Course class with full functionality
+- **Methods for Operations** - Separate methods for each operation with clear responsibilities
+- **Logical Decision-Making** - Switch-case menu with proper branching and validation
+- **Invalid Input Handling** - Validation for empty codes, titles, positive units
+- **String Processing** - trim(), equalsIgnoreCase(), toUpperCase(), split()
+- **Clean Coding Style** - Javadoc comments, meaningful variable names, proper formatting
+- **Iteration (Loops)** - Enhanced for-loops throughout for summing, saving, loading, searching
+- **Recursive Feature** - `displayMenuRecursive()` method demonstrating recursion practical use
+- **Exception Handling** - try-catch-finally blocks for file I/O and input validation
+- **File Reading & Writing** - PrintWriter/FileWriter for saving, BufferedReader/FileReader for loading
+- **Two Interface Options** - Console-based (CourseManager.main) and GUI-based (CourseGUI.main)
 
 ---
 
-## 🚀 **HOW TO RUN THE PROJECT**
+## **HOW TO RUN THE PROJECT**
 
 ### Prerequisites
 - Java Development Kit (JDK) 8 or higher
@@ -160,7 +160,7 @@ The GUI provides a visual window with:
 
 ---
 
-## 📝 **USAGE EXAMPLES**
+## **USAGE EXAMPLES**
 
 ### Adding a Course (Console)
 
@@ -204,7 +204,7 @@ Loaded 1 course(s).
 
 ---
 
-## 🛠️ **TECHNICAL IMPLEMENTATION DETAILS**
+## **TECHNICAL IMPLEMENTATION DETAILS**
 
 ### Course.java - Entity Class
 
@@ -231,7 +231,7 @@ Loaded 1 course(s).
 
 ---
 
-## 📸 **SCREENSHOTS FOR SUBMISSION**
+## **SCREENSHOTS FOR SUBMISSION**
 
 **Recommended screenshots to capture:**
 
@@ -257,19 +257,19 @@ Loaded 1 course(s).
 
 ---
 
-## ⚠️ **ACADEMIC INTEGRITY**
+## **ACADEMIC INTEGRITY**
 
 **This is an individual lab exercise.** Every student must submit their own original work.
 
-- ✅ Collaboration is permitted for discussing ideas and enhancing understanding
-- ❌ Copying, sharing, or submitting another student's completed work is strictly prohibited
-- ❌ Evidence of duplication or plagiarism will attract severe academic penalties
-- 📌 All source code must be your original work
-- 📌 This repository contains my personal implementation for reference only
+- Collaboration is permitted for discussing ideas and enhancing understanding
+- Copying, sharing, or submitting another student's completed work is strictly prohibited
+- Evidence of duplication or plagiarism will attract severe academic penalties
+- All source code must be your original work
+- This repository contains my personal implementation for reference only
 
 ---
 
-## 📚 **LAB REFERENCES**
+## **LAB REFERENCES**
 
 - **Lab Assignment:** COS 201 Programming I - Mid-Semester Lab Assessment Project
 - **Case Study:** Student Course Management (Mini-System)
@@ -279,7 +279,7 @@ Loaded 1 course(s).
 
 ---
 
-## 📦 **PUSH TO GITHUB INSTRUCTIONS**
+## **PUSH TO GITHUB INSTRUCTIONS**
 
 ### Step 1: Initialize Git Locally
 
@@ -320,7 +320,7 @@ git push -u origin main
 
 ---
 
-## 🎓 **SUBMISSION CHECKLIST**
+## **SUBMISSION CHECKLIST**
 
 - [x] Source code files (Course.java, CourseManager.java, CourseGUI.java)
 - [x] Student information (name, email, department, matriculation number)
@@ -338,7 +338,7 @@ git push -u origin main
 
 ---
 
-## 📧 **CONTACT & SUPPORT**
+## **CONTACT & SUPPORT**
 
 **Student:** Emmanuel Ogunfunwa  
 **Email:** e.ogunfunwa1129@miva.edu.ng  
