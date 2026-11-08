@@ -320,7 +320,7 @@ git push -u origin main
 
 ---
 
-## **SUBMISSION CHECKLIST**
+<!-- ## **SUBMISSION CHECKLIST**
 
 - [x] Source code files (Course.java, CourseManager.java, CourseGUI.java)
 - [x] Student information (name, email, department, matriculation number)
@@ -336,7 +336,7 @@ git push -u origin main
 - [ ] Add screenshots to PDF submission
 - [ ] Submit before LMS deadline
 
----
+--- -->
 
 ## **CONTACT & SUPPORT**
 

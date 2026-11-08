@@ -40,13 +40,11 @@ public class CourseManager {
             System.out.println("Error: Course title cannot be empty.");
             return false;
         }
-
         // Validate units - must be positive
         if (units <= 0) {
             System.out.println("Error: Units must be a positive number.");
             return false;
         }
-
         // Check for duplicate course code (case-insensitive)
         for (Course c : courseList) {
             if (c.getCourseCode().equalsIgnoreCase(code)) {
@@ -54,7 +52,6 @@ public class CourseManager {
                 return false;
             }
         }
-
         // Create and add the new course
         Course newCourse = new Course(code, title, units);
         courseList.add(newCourse);
